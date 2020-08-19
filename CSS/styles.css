@@ -78,9 +78,9 @@ span {
 
 /* Style Hero */
 
-.hero {
+/* .hero {
   background: #2f303a;
-}
+} */
 
 .h1-hero {
   font-size: 44px;
@@ -417,4 +417,14 @@ span {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/IMG/hero/Header\ img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
