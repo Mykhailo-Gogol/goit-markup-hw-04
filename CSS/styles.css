@@ -1,0 +1,412 @@
+/* Global */
+
+:root {
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+a,
+a:visited {
+  color: var(--second-text-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+h1,
+h4,
+ul,
+button,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style Index.html */
+
+/* Style Nav*/
+.font-logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.color-logo {
+  color: #2196f3;
+}
+
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.link-nav:hover {
+  color: #2196f3;
+}
+
+.link-nav.nav-contacts {
+  color: var(--main-text-color);
+}
+
+.nav-contacts:hover {
+  color: #2196f3;
+}
+
+/* Style Hero */
+
+.hero {
+  background: #2f303a;
+}
+
+.h1-hero {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Style Features */
+
+.h4-features {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.p-features {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* Style Card */
+
+.card-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.card-desc {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* Style Footer */
+
+.color-logo-footer {
+  color: #ffffff;
+}
+
+.link-footer.footer-contacts {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Style Portfolio.html */
+
+.card-name-portfolio {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding: 0 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+
+.card-desc-portfolio {
+  margin-bottom: 20px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+.address-footer {
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/* Containers and Flexbox*/
+/* Header */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.ul-container {
+  display: flex;
+  margin: auto;
+  margin-left: 93px;
+}
+
+.ul-container > li:not(:first-child) {
+  margin-left: 50px;
+}
+
+.ul-contacts-container {
+  display: flex;
+  margin-left: 330px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ul-contacts-container > li:not(:first-child) {
+  margin-left: 50px;
+}
+
+/* Hero */
+
+.hero {
+  margin: auto;
+  padding: 200px 0px 200px 0px;
+}
+
+.h1-hero {
+  width: 670px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.btn-hero {
+  display: block;
+  width: 200px;
+  height: 50px;
+  padding: 10px 0px;
+  margin: auto;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: hidden;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Features */
+
+.features {
+  margin: auto;
+  padding: 94px 0px 94px 0px;
+}
+
+.ul-features {
+  display: flex;
+}
+
+.ul-features > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.ul-features > li > h4 {
+  margin-bottom: 10px;
+}
+
+/* Product */
+
+.product {
+  margin: auto;
+  padding-bottom: 94px;
+}
+
+.h2-product,
+.h2-team {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ul-product {
+  display: flex;
+}
+
+.ul-product > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+/* Team */
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: auto;
+  background: #f5f4fa;
+}
+
+.ul-team {
+  display: flex;
+}
+
+.ul-team > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.card-style {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-name {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+  margin: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.address-footer {
+  margin-bottom: 9px;
+}
+
+.link-footer:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+/* Portfolio.html */
+
+.portfolio {
+  border-top: 1px solid #eeeeee;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* Filtres */
+
+.filtres {
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.filtres > button:not(:first-child) {
+  margin-left: 8px;
+}
+
+.btn-portfolio-text {
+  padding: 6px 22px 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn-portfolio {
+  color: var(--second-text-color);
+  background: #f5f4fa;
+  border-color: #f5f4fa;
+  border-radius: 4px;
+  border-style: hidden;
+}
+
+.btn-portfolio:hover {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Projects */
+
+.projects {
+  margin: auto;
+  /* width: 1178px; */
+}
+
+.img-contain {
+  width: 100%;
+}
+
+.card-style-portfolio {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.card-style-portfolio:not(.last-3) {
+  margin-bottom: 30px;
+}
+
+.wrap > li:not(:nth-of-type(3n - 5)) {
+  margin-left: 30px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
