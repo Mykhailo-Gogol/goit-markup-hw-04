@@ -428,3 +428,27 @@ span {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* Test */
+
+.soclink {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.soclink:hover {
+  fill: #fff;
+}
+
+.soclink-bg {
+  display: inline-block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.soclink-bg:hover {
+  background-color: #2196f3;
+}
