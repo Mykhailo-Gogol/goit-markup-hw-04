@@ -260,7 +260,8 @@ span {
 }
 
 .h2-product,
-.h2-team {
+.h2-team,
+.h2-clients {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -409,4 +410,11 @@ span {
 .wrap {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* Homework 4 */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
