@@ -302,7 +302,7 @@ span {
 
 .card-desc {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 /* Footer */
@@ -426,6 +426,15 @@ span {
 }
 
 /* Test */
+
+.card-soclinks{
+  display: flex;
+  margin: 0 32px 30px 32px;
+}
+
+.card-soclinks li:not(:last-child) {
+margin-right: 10px;
+}
 
 .soclink {
   width: 20px;
