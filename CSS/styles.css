@@ -69,6 +69,7 @@ span {
 }
 
 .link-nav.nav-contacts {
+  margin: auto;
   color: var(--main-text-color);
 }
 
@@ -190,13 +191,13 @@ span {
 
 .ul-contacts-container {
   display: flex;
-  margin-left: 330px;
+  margin-left: 305px;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .ul-contacts-container > li:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 /* Hero */
@@ -410,22 +411,68 @@ span {
 
 /* Homework 4 */
 
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+/* Features */
+
+.bg-features{
+  padding: 25px 100px;
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
 }
+
+.icon-features{
+  width: 70px;
+  height: 70px;
+}
+
+/* Hero */
 
 .hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/IMG/hero/Img.jpg");
+    url("../IMG/hero/Img.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* Test */
+/* Icons */
+
+/* Contacts */
+
+.contacts-flex{
+  display: flex;
+}
+
+.contacts-icon-mail{
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  fill:#757575;
+  margin-right: 10px;
+
+}
+
+.contacts-icon-phone{
+  width: 10px;
+  height: 16px;
+  margin: auto;
+  fill:#757575;
+  margin-right: 10px;
+
+}
+
+.contacts-icon-mail:hover,
+.contacts-icon-phone:hover{
+  fill:#2196F3;
+
+}
+
+/* Soc-links */
 
 .card-soclinks{
   display: flex;
@@ -437,6 +484,7 @@ margin-right: 10px;
 }
 
 .soclink {
+  margin: auto;
   width: 20px;
   height: 20px;
   fill: #afb1b8;
@@ -456,4 +504,127 @@ margin-right: 10px;
 
 .soclink-bg:hover {
   background-color: #2196f3;
+}
+
+/* Clients */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.ul-clients-flex{
+  display: flex;
+}
+
+.ul-clients-flex li:not(:last-child){
+  margin-right: 30px;
+}
+
+.client-link{
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.client-link:hover{
+  border-color: #2196f3;
+}
+
+.client-icon1{
+  margin: 20px 63px;
+  width: 43px;
+  height: 49px;
+  fill:#afb1b8;
+}
+.client-icon2{
+  margin: 19px 65px;
+  width: 40px;
+  height: 52px;
+  fill:#afb1b8;
+}
+.client-icon3{
+  margin: 24px 65px;
+  width: 40px;
+  height: 42px;
+  fill:#afb1b8;
+}
+.client-icon4{
+  margin: 24px 45px;
+  width: 79px;
+  height: 42px;
+  fill:#afb1b8;
+}
+.client-icon5{
+  margin: 22px 55px;
+  width: 59px;
+  height: 47px;
+  fill:#afb1b8;
+}
+.client-icon6{
+  margin: 22px 41px;
+  width: 88px;
+  height: 45px;
+  fill:#afb1b8;
+}
+
+.client-icon1:hover,
+.client-icon2:hover,
+.client-icon3:hover,
+.client-icon4:hover,
+.client-icon5:hover,
+.client-icon6:hover{
+  fill:#2196f3
+}
+
+/* Footer Soclinks */
+
+.footer-flex{
+  display: flex;
+}
+
+.soclinks-info{
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 70px;
+}
+
+.welcome-footer{
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer-soclinks{
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-soclinks li:not(:last-child){
+  margin-right: 10px;
+}
+
+.footer-soclink-bg{
+  display: inline-block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soclink{
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+
+}
+
+.footer-soclink-bg:hover{
+  background-color: #2196F3;
 }
