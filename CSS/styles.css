@@ -326,7 +326,12 @@ span {
 }
 
 .address-footer {
+  line-height: 24px;
   margin-bottom: 9px;
+}
+
+.link-footer{
+  line-height: 24px;
 }
 
 .link-footer:not(:last-child) {
@@ -448,6 +453,22 @@ span {
   display: flex;
 }
 
+.contacts-flex:hover .contacts-icon-mail{
+  fill: #2196F3;
+}
+
+.contacts-flex:hover .nav-contacts{
+  color: #2196F3;
+}
+
+.contacts-flex:hover .contacts-icon-phone{
+  fill: #2196F3;
+}
+
+.contacts-flex:hover .nav-contacts{
+  color: #2196F3;
+}
+
 .contacts-icon-mail{
   width: 16px;
   height: 16px;
@@ -463,12 +484,6 @@ span {
   margin: auto;
   fill:#757575;
   margin-right: 10px;
-
-}
-
-.contacts-icon-mail:hover,
-.contacts-icon-phone:hover{
-  fill:#2196F3;
 
 }
 
@@ -490,7 +505,11 @@ margin-right: 10px;
   fill: #afb1b8;
 }
 
-.soclink:hover {
+.soclink-style-hover:hover .soclink-bg{
+  background-color: #2196f3;
+}
+
+.soclink-style-hover:hover .soclink{
   fill: #fff;
 }
 
@@ -500,10 +519,6 @@ margin-right: 10px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-
-.soclink-bg:hover {
-  background-color: #2196f3;
 }
 
 /* Clients */
@@ -529,9 +544,30 @@ margin-right: 10px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
-.client-link:hover{
+.clients-style-hover:hover .client-link{
   border-color: #2196f3;
 }
+
+.clients-style-hover:hover .client-icon1{
+  fill:#2196f3
+}
+.clients-style-hover:hover .client-icon2{
+  fill:#2196f3
+}
+.clients-style-hover:hover .client-icon3{
+  fill:#2196f3
+}
+.clients-style-hover:hover .client-icon4{
+  fill:#2196f3
+}
+.clients-style-hover:hover .client-icon5{
+  fill:#2196f3
+}
+.clients-style-hover:hover .client-icon6{
+  fill:#2196f3
+}
+
+
 
 .client-icon1{
   margin: 20px 63px;
@@ -570,15 +606,6 @@ margin-right: 10px;
   fill:#afb1b8;
 }
 
-.client-icon1:hover,
-.client-icon2:hover,
-.client-icon3:hover,
-.client-icon4:hover,
-.client-icon5:hover,
-.client-icon6:hover{
-  fill:#2196f3
-}
-
 /* Footer Soclinks */
 
 .footer-flex{
@@ -590,6 +617,7 @@ margin-right: 10px;
   flex-direction: column;
 
   margin-left: 70px;
+  margin-top: 12px;
 }
 
 .welcome-footer{
